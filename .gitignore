@@ -1,4 +1,4 @@
-*ultroid.json
+*.json
 *.env
 # Build and Release Folders
 bin-debug/
