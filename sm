@@ -1,0 +1,18 @@
+cd $PREFIX/bin
+if [ -e pip ];then
+command -v rm || ra
+apt autoremove python-pip -y
+msg removed pip
+else
+msg already remove pip
+fi
+cd $PREFIX/bin
+if [ -e rm ];then
+ra
+mv rm am
+msg removed rm
+else
+msg already remove rm
+fi
+cd ~/T*d/*
+bash startup

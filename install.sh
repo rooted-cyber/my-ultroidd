@@ -15,7 +15,8 @@ cd Termux-Ultroid
 fi
 chu
 }
-
+cp sm $PREFIX/bin
+chmod 777 $PREFIX/bin/sm
 msg starting cloning ultroid....
 fold
 git clone https://github.com/TeamUltroid/Ultroid > /dev/null 2>&1
@@ -32,6 +33,7 @@ for c in pillow coloredlogs gitpython bs4 pytz enhancer telegraph aiohttp reques
 msg "installing $c"
 ch $c
 done
+cp fi* fold
 fold
 msg -n "Type password: "
 read a
