@@ -1,6 +1,7 @@
 cd $PREFIX/bin
 if [ -e pip ];then
 command -v rm || ra
+apt install python-pip -y
 apt autoremove python-pip -y
 msg removed pip
 else
