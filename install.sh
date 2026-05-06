@@ -25,7 +25,7 @@ for c in pillow coloredlogs gitpython bs4 pytz enhancer telegraph aiohttp reques
 msg "installing $c"
 ch $c
 done
-cp fi* ~/T*d/*
+cp ~/my*/fi* ~/T*d/*
 msg -n "Type password: "
 read a
 unzip -P "$a" *zip
