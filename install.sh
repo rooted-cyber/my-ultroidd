@@ -13,6 +13,7 @@ msg starting cloning ultroid....
 fold
 git clone https://github.com/TeamUltroid/Ultroid > /dev/null 2>&1
 msg cloned [ √ ]
+cd Ultroid
 msg installing ultroid requirement [ please wait.... ]
 if command -v pip3;then
 pip3 install -r requirements.txt  --no-cache-dir --force-reinstall > /dev/null 2>&1
